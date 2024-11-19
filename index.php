@@ -605,4 +605,75 @@
     </div>
 </div>
 
+
+<!-- Why Redoherbs section start  -->
+
+<div class="container">
+    <div class="col-lg-12 RealStories">
+        <h2>Why Redoherbs?</h2>
+    </div>
+    <div class="number">
+        01
+    </div>
+
+</div>
+<div class="col-12 d-flex">
+    <div class="col-lg-8 proDetails">
+        <h6>FORMULATED BY EXPERTS <br>
+            AT KAPIVA ACADEMY OF AYURVEDA</h6>
+        <p>Experts at Kapiva Academy of Ayurveda, PhD.’s, and Ayurvedacharya with over 50 years of cumulative experience
+            build formulations with scientifically and clinically tested ingredients, to make our proprietary products
+            that help you reach your health goals.</p>
+    </div>
+    <div class="col-lg-4 d-flex justify-content-end">
+        <div class="imgp">
+            <img src="assets/productimg/redd.png" class='w-100 d-md-block d-none' alt="img">
+            <img src="assets/productimg/mobptti1.png" class='d-md-none d-block' width='100' height='143' alt="img">
+        </div>
+    </div>
+</div>
+
+<div class="col-12 d-flex">
+<div class="col-lg-4 d-flex justify-content-start">
+        <div class="imgp1">
+            <img src="assets/productimg/hh2.png" class='w-100 d-md-block d-none' alt="img">
+            <img src="assets/productimg/mobpttt2.png" class='d-md-none d-block' width='100' height='143' alt="img">
+        </div>
+    </div>
+    <div class="col-lg-8 proDetails">
+        <div class="number text-end">
+            02
+        </div>
+        <h6 class='text-end'>HOLISTIC SOLUTIONS <br>
+            FOR EVERY NEED</h6>
+        <p class='text-end'>
+            Be it acne, hair fall, or diabetes, we don’t stop at just giving you products as that is just one element of
+            solving your problem. We also give free health expert advice, personalized diet plans, and lifestyle
+            recommendations including Yoga Asanas.
+        </p>
+    </div>
+   
+</div>
+
+<div class="col-12 d-flex">
+    <div class="col-lg-8 proDetails">
+        <div class="number">
+            03
+        </div>
+        <h6>HOLISTIC SOLUTIONS <br>
+            FOR EVERY NEED</h6>
+        <p>
+            Be it acne, hair fall, or diabetes, we don’t stop at just giving you products as that is just one element of
+            solving your problem. We also give free health expert advice, personalized diet plans, and lifestyle
+            recommendations including Yoga Asanas.
+        </p>
+    </div>
+    <div class="col-lg-4 d-flex justify-content-end">
+        <div class="imgp3">
+            <img src="assets/productimg/redd.png" class='w-100 d-md-block d-none' alt="img">
+            <img src="assets/productimg/mobptti1.png" class='d-md-none d-block' width='100' height='143' alt="img">
+        </div>
+    </div>
+</div>
+
 <?php include 'includes/footer.php';?>

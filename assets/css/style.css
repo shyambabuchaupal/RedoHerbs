@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none !important;
+}
+
+.loginbtn {
+    border: 1px solid gray;
+    padding: 3px 30px;
+    border-radius: 6px;
+}
+
+.paadd {
+    padding: 0px 44px;
+    flex-wrap: nowrap !important;
+}
+
+.logoimg {
+    width: 59%;
+}
+
+.sticy {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 11vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.shCart {
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+.gapitem {
+    gap: 25px;
+}
+
+.shCartmob {
+    font-size: 23px;
+}
+
+.bannimg {
+    margin-top: 80px;
+}
+
+.fooPhone {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+
+}
+
+.mediafooter {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+footer {
+    padding: 70px 0;
+}
+
+.footer_weight {
+    margin-top: 24px;
+}
+
+.p_details {
+    gap: 50px;
+}
+
+/* <!-- swiper styles --> */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    margin: auto;
+}
+
+.fsss {}
+
+.text_product h6 {
+    font-size: 18px;
+    padding: 12px 8px;
+}
+
+.price_product {
+    padding: 12px 8px;
+}
+
+.buttonProduct {
+    padding: 12px 8px;
+}
+
+.doctorsection {
+    padding: 60px 0;
+}
+
+.doctorsection h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.doctorDecription {
+    padding: 32px 0;
+    background-color: green;
+    border-radius: 9px;
+    color: white;
+}
+
+.doctorDecription h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.RealStories{
+    padding: 60px 0;
+}
+.RealStories h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.star{
+    padding: 5px 8px;
+}
+.text_product p{
+    padding: 0 8px;
+}
+
+
+/* responsive for moblie */
+@media(max-width: 575px), only screen and (max-width: 320px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .sticy {
+        height: 7vh;
+    }
+
+    .paadd {
+        padding: 0px 12px;
+        flex-wrap: nowrap !important;
+    }
+
+    footer {
+        padding: 13px 0;
+    }
+
+    .bannimg {
+        margin-top: 60px;
+    }
+
+    .text_product h6 {
+        font-size: 16px;
+
+    }
+
+    .doctorsection h2 {
+        font-size: 18px;
+    }
+
+    .doctorsection {
+        padding: 30px 0;
+    }
+
+    .doctorDecription h5 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .doctorDecription {
+        padding: 16px 0;
+        background-color: green;
+        border-radius: 9px;
+        color: white;
+    }
+    .RealStories h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .RealStories {
+        padding: 30px 0;
+    }
+    .p_details {
+        gap: 10px;
+    }
+}
+
+/* resonive for tabs  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px) {}
+
+/* responsive for desktops */
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .bannimg {
+        margin-top: 72px;
+    }
+}

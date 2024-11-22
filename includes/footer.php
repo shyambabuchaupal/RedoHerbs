@@ -239,6 +239,69 @@ var swiper = new Swiper(".mySwiper2", {
     },
 });
 </script>
+
+
+<!-- new codd  -->
+
+<script>
+var swiper = new Swiper(".mySwiper3", {
+    loop: true,
+    slidesPerView: 4,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        // when window width is >= 480px
+        1200: {
+            slidesPerView: 4,
+            spaceBetween: 20
+        },
+
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+    },
+});
+</script>
+
+<script>
+   
+(() => {
+  'use strict'
+
+  
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
 </body>
 
 </html>

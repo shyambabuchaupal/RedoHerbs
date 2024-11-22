@@ -29,7 +29,7 @@ li {
 
 .sticy {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: 11vh;
+    height: auto;
     position: fixed;
     width: 100%;
     top: 0;
@@ -94,6 +94,7 @@ footer {
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
 
 }
 
@@ -101,12 +102,13 @@ footer {
     display: block;
     width: 100%;
     height: 100%;
-
     object-fit: cover;
     margin: auto;
+    border-radius: 10px 10px 0px 0px;
+
 }
 
-.fsss {}
+
 
 .text_product h6 {
     font-size: 18px;
@@ -141,48 +143,102 @@ footer {
     font-size: 24px;
     font-weight: 700;
 }
-.RealStories{
+
+.RealStories {
     padding: 60px 0;
 }
-.RealStories h2{
+
+.RealStories h2 {
     font-size: 36px;
     font-weight: 600;
 }
-.star{
+
+.star {
     padding: 5px 8px;
 }
-.text_product p{
+
+.text_product p {
     padding: 0 8px;
 }
+
 .number {
     font-size: 100px;
     font-weight: 500;
     color: #198754;
 }
-.proDetails{
+
+.proDetails {
     padding: 0 108px;
 }
-.proDetails h6{
-    font-size: 29px ;
-font-weight: 700;
+
+.proDetails h6 {
+    font-size: 29px;
+    font-weight: 700;
 }
-.proDetails p{
+
+.proDetails p {
     font-size: 24px;
     font-weight: 400;
 }
-.imgp{
+
+.imgp {
     margin-top: -90px;
 }
-.imgp3{
+
+.imgp3 {
     margin-top: 12px;
 }
+
+/* new codd  */
+.newimg img {
+    width: auto !important;
+    height: auto !important;
+}
+
+.newimg {
+    height: 21vh !important;
+    margin: 6px 3px;
+    padding: 4px 0;
+}
+
+.RealStories img {
+    width: 40%;
+}
+
+
+/* product css start  */
+.ProductPage {
+    padding: 160px 0;
+    gap: 30px;
+}
+
+.rightside {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    height: 76vh;
+}
+/* about css  */
+
+.ContactPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f1f1f1;
+  margin-top: 80px;
+  
+}
+
 
 
 /* responsive for moblie */
 @media(max-width: 575px), only screen and (max-width: 320px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
-    .sticy {
-        height: 7vh;
-    }
+
 
     .paadd {
         padding: 0px 12px;
@@ -221,44 +277,86 @@ font-weight: 700;
         border-radius: 9px;
         color: white;
     }
+
     .RealStories h2 {
         font-size: 18px;
         font-weight: 600;
     }
+
     .RealStories {
         padding: 30px 0;
     }
+
     .p_details {
         gap: 10px;
     }
+
     .number {
         font-size: 70px;
         font-weight: 500;
         color: #198754;
     }
+
     .proDetails h6 {
         font-size: 14px;
         font-weight: 600;
     }
+
     .proDetails {
         padding: 0 17px;
     }
+
     .proDetails p {
         font-size: 11px;
         font-weight: 400;
     }
-    .imgp{
+
+    .imgp {
         margin-top: 0px;
     }
+
     .imgp3 {
         margin-top: 93px;
     }
-    .imgp1{
+
+    .imgp1 {
         margin-top: 66px;
     }
+
     .text_product p {
         padding: 0 8px;
         font-size: 13px;
+    }
+
+    /* new coooddd  */
+    .newimg {
+        height: 25vh !important;
+        margin: 3px 2px;
+        padding: 4px 0;
+    }
+
+    .newimg img {
+        width: 54% !important;
+        height: auto !important;
+    }
+
+    .RealStories img {
+        width: 100%;
+    }
+
+    .fsfst {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .fs-6w {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    /* product css  */
+    .ProductPage{
+        padding: 43px 0;
     }
 
 }

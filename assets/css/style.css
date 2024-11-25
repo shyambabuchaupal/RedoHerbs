@@ -11,6 +11,9 @@ body {
 li {
     list-style: none !important;
 }
+a{
+    text-decoration: none !important;
+}
 
 .loginbtn {
     border: 1px solid gray;
@@ -232,6 +235,29 @@ footer {
   background-color: #f1f1f1;
   margin-top: 80px;
   
+}
+
+
+/* single product css start  */
+.single-img{
+    padding: 135px 0;
+}
+.small-img-group{
+    display: flex;
+    margin-top: 20px;
+}
+.single-product-dec{
+    padding: 135px 0;
+}
+.small-img-group img{
+    cursor: pointer;
+}
+.singleprice{
+    padding: 17px 0;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    border-radius: 4px;
 }
 
 

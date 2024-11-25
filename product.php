@@ -27,7 +27,7 @@
                         <h5 class='fs-6 fw-semibold py-4'>Displaying: 41 products</h5>
                         <div class="row">
                             <div class='col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 mb-3'>
-                                <div class="card">
+                                <a href='singleproduct.php' class="card">
                                     <img src="assets/productimg/7.png" alt="img">
                                     <div class="text_product">
                                         <h6 class='text-start'>Dia Free Juice - Diabetes Care</h6>
@@ -42,7 +42,7 @@
                                         </button>
                                         <button type="button" class="ms-3 border-0 py-0 px-2">Buy Now</button>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class='col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 mb-3'>
                                 <div class="card">
